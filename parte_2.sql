@@ -58,7 +58,7 @@ create table if not exists estadios(
 	estadio VARCHAR,
 	"local" VARCHAR(128),
 	publico_pagante INTEGER
-)
+);
 
 
 insert into estadios
@@ -84,7 +84,7 @@ values
 	('XVIII', '2006', 'Estádio Olímpico de Berlim', 'Berlim', 69000),
 	('XIX', '2010', 'Soccer City', 'Joanesburgo', 84490),
 	('XX', '2014', 'Estádio do Maracanã', 'Rio de Janeiro', 74738),
-	('XXI', '2018', 'Estádio Lujniki', 'Moscou', 78011)
+	('XXI', '2018', 'Estádio Lujniki', 'Moscou', 78011);
 	
 	
 select 
