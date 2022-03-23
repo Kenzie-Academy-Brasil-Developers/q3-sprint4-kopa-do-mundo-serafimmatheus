@@ -2,7 +2,7 @@ create table if not exists kopas (
 	id BIGSERIAL constraint id_kopas primary key,
 	selecao VARCHAR(128) unique,
 	qnt_copas integer 
-)
+);
 
 
 insert into kopas 
@@ -16,7 +16,7 @@ values
 	('Uruguai', 2), 
 	('Inglaterra', 1),
 	('Espanha', 1),
-	('Japão', 1)
+	('Japão', 1);
 	
 
 update kopas 
